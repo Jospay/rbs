@@ -38,7 +38,7 @@ const universityFeatures = [
                         style="min-height: 480px"
                     >
                         <img
-                            src="@/assets/ai.jpg"
+                            src="@/assets/universities-national-labs.jpg"
                             alt="National Labs AI Research"
                             class="absolute inset-0 h-full w-full object-cover"
                         />

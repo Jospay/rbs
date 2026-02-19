@@ -51,7 +51,6 @@ const financeOptions = [
     <div class="overflow-hidden bg-white">
         <section
             class="relative flex min-h-[60vh] items-center overflow-hidden bg-slate-950 bg-cover bg-center pt-40 pb-20"
-            style="background-image: url('/src/assets/hero.jpeg')"
         >
             <div
                 class="absolute inset-0 z-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-transparent"
@@ -69,10 +68,10 @@ const financeOptions = [
                         <p
                             class="border-l-2 border-brand-green/30 pl-6 text-lg leading-relaxed text-slate-200"
                         >
-                            Seven Boson provides turnkey financing for sovereign
-                            AI clouds and data center infrastructure—built
-                            around infrastructure-grade economics and long-term
-                            operating models.
+                            Rekhi Bisheri Salunga provides turnkey financing for
+                            sovereign AI clouds and data center
+                            infrastructure—built around infrastructure-grade
+                            economics and long-term operating models.
                         </p>
                     </div>
                 </div>
@@ -130,7 +129,7 @@ const financeOptions = [
                             class="relative aspect-video overflow-hidden rounded-3xl bg-slate-200 shadow-2xl"
                         >
                             <img
-                                src="@/assets/ai.jpg"
+                                src="@/assets/sovereign-fuinance.jpg"
                                 alt="Financing Options"
                                 class="h-full w-full object-cover transition-all duration-1000 hover:scale-105"
                             />
@@ -150,7 +149,7 @@ const financeOptions = [
                             class="relative aspect-video overflow-hidden rounded-3xl bg-slate-200 shadow-2xl"
                         >
                             <img
-                                src="@/assets/ai.jpg"
+                                src="@/assets/financing-option.jpg"
                                 alt="Financing Options"
                                 class="h-full w-full object-cover transition-all duration-1000 hover:scale-105"
                             />

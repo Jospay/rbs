@@ -1,30 +1,34 @@
 <script setup lang="ts">
 import { Head } from '@inertiajs/vue3';
 import { Lock, GanttChartSquare, Globe, ServerCrash } from 'lucide-vue-next';
+import cyber from '@/assets/cyber-protection.jpg';
+import global from '@/assets/global-alignment.jpg';
+import policy from '@/assets/policy-oversght.jpg';
+import secure from '@/assets/secure-infrastructure.jpg';
 
 const securityPillars = [
     {
         title: 'Secure National AI Infrastructure',
         desc: 'Zero-trust, strong identity access management, encryption, continuous monitoring, and resilience-by-design.',
-        image: '/assets/ai.jpg',
+        image: cyber,
         delay: 100,
     },
     {
         title: 'Policy-Driven Oversight & Ethical AI',
         desc: 'Configurable guardrails, audit trails, transparency, and human-in-the-loop controls for responsible intelligence.',
-        image: '/assets/ai.jpg',
+        image: global,
         delay: 200,
     },
     {
         title: 'Global Regulatory Alignment',
         desc: 'Adaptable governance model across jurisdictions while preserving absolute sovereign accountability.',
-        image: '/assets/ai.jpg',
+        image: policy,
         delay: 300,
     },
     {
         title: 'Cyber-Physical Protection',
         desc: 'Security across data centers, power systems, and OT interfaces with integrated incident playbooks.',
-        image: '/assets/ai.jpg',
+        image: secure,
         delay: 400,
     },
 ];
@@ -36,7 +40,6 @@ const securityPillars = [
     <div class="overflow-hidden">
         <section
             class="relative flex min-h-[60vh] items-center overflow-hidden bg-slate-950 bg-cover bg-center bg-no-repeat pt-40 pb-20"
-            style="background-image: url('/src/assets/hero.jpeg')"
         >
             <div
                 class="bg-liner-to-r absolute inset-0 z-0 from-slate-950 via-slate-950/80 to-transparent"
@@ -60,10 +63,10 @@ const securityPillars = [
                             class="border-l-2 border-brand-green/30 pl-6 text-lg leading-relaxed text-slate-200"
                         >
                             Sovereign AI requires robust governance and
-                            cybersecurity. Seven Boson builds trust through
-                            security-by-design, policy-driven oversight, and
-                            cyber-physical protection across infrastructure and
-                            operations.
+                            cybersecurity. Rekhi Bisheri Salunga builds trust
+                            through security-by-design, policy-driven oversight,
+                            and cyber-physical protection across infrastructure
+                            and operations.
                         </p>
                     </div>
                 </div>
@@ -113,15 +116,10 @@ const securityPillars = [
                         :data-aos-delay="pillar.delay"
                     >
                         <div class="relative aspect-4/5">
-                            <!-- <img
+                            <img
                                 :src="pillar.image"
                                 class="h-full w-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-110"
                                 :alt="pillar.title"
-                            /> -->
-
-                            <img
-                                src="@/assets/ai.jpg"
-                                class="h-full w-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-110"
                             />
                             <div
                                 class="absolute inset-0 bg-linear-to-t from-slate-950 via-slate-900/40 to-transparent"

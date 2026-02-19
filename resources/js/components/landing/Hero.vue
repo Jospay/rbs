@@ -1,12 +1,13 @@
 <script setup lang="ts">
+import banner from '@/assets/banner.jpg';
 import { Button } from '@/Components/ui/button';
 </script>
 
 <template>
     <section
-        class="relative flex min-h-screen w-full items-center justify-center bg-cover bg-center bg-no-repeat px-6 pt-28 pb-14"
+        class="relative flex min-h-screen w-full items-center justify-center bg-cover bg-center bg-no-repeat px-6 pt-36 pb-16"
         :style="{
-            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/img/hero.jpeg')`,
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(${banner})`,
         }"
     >
         <div class="relative z-10 container">

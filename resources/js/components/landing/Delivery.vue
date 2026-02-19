@@ -88,7 +88,7 @@ const features = [
                         style="min-height: 480px"
                     >
                         <img
-                            src="@/assets/ai.jpg"
+                            src="@/assets/why-sovereign-ai-now.jpg"
                             alt="Sovereign AI Infrastructure"
                             class="absolute inset-0 h-full w-full object-cover"
                         />

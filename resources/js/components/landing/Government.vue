@@ -48,7 +48,7 @@ const leadershipFeatures = [
                             :key="item.title"
                             class="group flex items-center gap-5 rounded-2xl border border-slate-100 bg-white p-5 shadow-sm transition-all duration-300 hover:border-brand-green/20 hover:shadow-md"
                         >
-                            <div class="flex-shrink-0">
+                            <div class="shrink-0">
                                 <div
                                     class="flex h-12 w-12 items-center justify-center rounded-lg bg-brand-green/10 text-brand-green transition-colors duration-300 group-hover:bg-brand-green group-hover:text-white"
                                 >
@@ -74,11 +74,11 @@ const leadershipFeatures = [
                     ></div>
 
                     <div
-                        class="relative z-10 overflow-hidden rounded-2xl shadow-2xl transition-transform duration-500 hover:-translate-y-2"
+                        class="z-00 relative overflow-hidden rounded-2xl shadow-2xl transition-transform duration-500 hover:-translate-y-2"
                         style="min-height: 480px"
                     >
                         <img
-                            src="@/assets/ai.jpg"
+                            src="@/assets/government-enterprise-leadership.jpg"
                             alt="Government Leadership AI"
                             class="absolute inset-0 h-full w-full object-cover"
                         />

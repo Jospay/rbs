@@ -9,47 +9,54 @@ import {
     GraduationCap,
 } from 'lucide-vue-next';
 
+import communication from '@/assets/communication.jpg';
+import defense from '@/assets/defense.jpg';
+import edcation from '@/assets/edcation-research.jpg';
+import energy from '@/assets/energy.jpg';
+import healthcare from '@/assets/healthcare.jpg';
+import transportation from '@/assets/transportation.jpg';
+
 const sectors = [
     {
         name: 'Healthcare',
         desc: 'Privacy-secured health data environments enabling diagnostics and multi-omics decision intelligence under local governance.',
         icon: Stethoscope,
-        image: '/assets/img/ai.jpg',
+        image: healthcare,
         delay: 100,
     },
     {
         name: 'Defense',
         desc: 'Sovereign intelligence, surveillance, and operational decision support with rigorous security and oversight.',
         icon: ShieldAlert,
-        image: '/assets/img/ai.jpg',
+        image: defense,
         delay: 200,
     },
     {
         name: 'Transportation',
         desc: 'Smart mobility, logistics automation, and autonomous coordination with sovereign data residency.',
         icon: Truck,
-        image: '/assets/img/ai.jpg',
+        image: transportation,
         delay: 300,
     },
     {
         name: 'Communications',
         desc: 'Network optimization, anomaly detection, and resilient telecom operations with cyber defense.',
         icon: Satellite,
-        image: '/assets/img/ai.jpg',
+        image: communication,
         delay: 400,
     },
     {
         name: 'Energy',
         desc: 'Grid balancing, renewable integration, and predictive maintenance to power national AI growth.',
         icon: Zap,
-        image: '/assets/img/ai.jpg',
+        image: energy,
         delay: 500,
     },
     {
         name: 'Education & Research',
         desc: 'Secure research compute and talent pipelines for universities and national labs.',
         icon: GraduationCap,
-        image: '/assets/img/ai.jpg',
+        image: edcation,
         delay: 600,
     },
 ];
@@ -60,10 +67,9 @@ const sectors = [
     <div class="overflow-hidden">
         <section
             class="relative flex min-h-[60vh] items-center overflow-hidden bg-slate-950 bg-cover bg-center bg-no-repeat pt-40 pb-20"
-            style="background-image: url('/src/assets/hero.jpeg')"
         >
             <div
-                class="absolute inset-0 z-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-transparent"
+                class="bg-liner-to-r absolute inset-0 z-0 from-slate-950 via-slate-950/80 to-transparent"
             ></div>
 
             <div class="relative z-10 container mx-auto px-6">
@@ -83,10 +89,10 @@ const sectors = [
                         <p
                             class="border-l-2 border-brand-green/30 pl-6 text-lg leading-relaxed text-slate-200"
                         >
-                            Seven Boson’s sovereign platform is applied across
-                            critical national sectors. We tailor systems to
-                            local data, policy constraints, and mission goals
-                            while preserving sovereign control.
+                            Rekhi Bisheri Salunga’s sovereign platform is
+                            applied across critical national sectors. We tailor
+                            systems to local data, policy constraints, and
+                            mission goals while preserving sovereign control.
                         </p>
                     </div>
                 </div>
@@ -119,15 +125,10 @@ const sectors = [
                         data-aos="fade-up"
                         :data-aos-delay="sector.delay"
                     >
-                        <!-- <img
+                        <img
                             :src="sector.image"
                             class="absolute inset-0 h-full w-full object-cover opacity-40 transition-transform duration-700 group-hover:scale-110 group-hover:opacity-30"
                             :alt="sector.name"
-                        /> -->
-
-                        <img
-                            src="@/assets/ai.jpg"
-                            class="absolute inset-0 h-full w-full object-cover opacity-40 transition-transform duration-700 group-hover:scale-110 group-hover:opacity-30"
                         />
 
                         <div

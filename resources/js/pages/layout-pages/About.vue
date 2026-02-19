@@ -1,23 +1,26 @@
 <script setup lang="ts">
 import { Head } from '@inertiajs/vue3';
+import global from '@/assets/global-ecosystem.jpg';
+import india from '@/assets/india-innovation-hub.jpg';
+import silicon from '@/assets/silicon-valley-ai-lab.jpg';
 
 const hubs = [
     {
         title: 'Silicon Valley AI Lab',
         location: 'San Francisco, USA',
-        image: '/assets/img/ai.jpg', // Replace with specific image if available
+        image: silicon,
         delay: 100,
     },
     {
         title: 'India Innovation Hub',
         location: 'Chennai, India',
-        image: '/assets/img/ai.jpg',
+        image: india,
         delay: 200,
     },
     {
         title: 'Global Ecosystems',
         location: 'Singapore, Middle East & Beyond',
-        image: '/assets/img/ai.jpg',
+        image: global,
         delay: 300,
     },
 ];
@@ -126,15 +129,10 @@ const hubs = [
                     data-aos="fade-up"
                     :data-aos-delay="hub.delay"
                 >
-                    <!-- <img
+                    <img
                         :src="hub.image"
                         class="absolute inset-0 h-full w-full object-cover opacity-60 transition-transform duration-700 group-hover:scale-110 group-hover:opacity-40"
                         :alt="hub.title"
-                    /> -->
-
-                    <img
-                        src="@/assets/ai.jpg"
-                        class="absolute inset-0 h-full w-full object-cover opacity-60 transition-transform duration-700 group-hover:scale-110 group-hover:opacity-40"
                     />
 
                     <div

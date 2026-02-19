@@ -2,13 +2,17 @@
 import { Head } from '@inertiajs/vue3';
 import { MapPin, Microscope, Network, Rocket } from 'lucide-vue-next';
 
+import india from '@/assets/india-innovation-hub.jpg';
+import silicon from '@/assets/silicon-valley-ai-lab.jpg';
+import strategic from '@/assets/strategic-partnerships.jpg';
+
 const labs = [
     {
         name: 'Silicon Valley AI Lab',
         location: 'San Francisco, USA',
         focus: 'World model fine-tuning, agentic AI, AI Ops, optimization, and next-gen computing.',
         icon: Microscope,
-        image: '/assets/img/ai.jpg',
+        image: silicon,
         delay: 100,
     },
     {
@@ -16,7 +20,7 @@ const labs = [
         location: 'Chennai, India',
         focus: 'IIT Madras anchored hub for applied AI, talent pipelines, and incubation.',
         icon: Rocket,
-        image: '/assets/img/ai.jpg',
+        image: india,
         delay: 200,
     },
     {
@@ -24,7 +28,7 @@ const labs = [
         location: 'Global Network',
         focus: 'Research centers, accelerators, and incubators for sovereign-aligned innovation.',
         icon: Network,
-        image: '/assets/img/ai.jpg',
+        image: strategic,
         delay: 300,
     },
 ];
@@ -36,7 +40,6 @@ const labs = [
     <div class="overflow-hidden">
         <section
             class="relative flex min-h-[60vh] items-center overflow-hidden bg-slate-950 bg-cover bg-center bg-no-repeat pt-40 pb-20"
-            style="background-image: url('/src/assets/hero.jpeg')"
         >
             <div
                 class="absolute inset-0 z-0 bg-linear-to-r from-slate-950 via-slate-950/85 to-transparent"
@@ -59,9 +62,9 @@ const labs = [
                         <p
                             class="border-l-2 border-brand-green/30 pl-6 text-lg leading-relaxed text-slate-200"
                         >
-                            Innovation is central to Seven Boson’s mission. Our
-                            global labs and university alliances keep the
-                            platform ahead of the curve and accelerate
+                            Innovation is central to Rekhi Bisheri Salunga’s
+                            mission. Our global labs and university alliances
+                            keep the platform ahead of the curve and accelerate
                             commercialization.
                         </p>
                     </div>
@@ -96,16 +99,12 @@ const labs = [
                         <div
                             class="relative mb-8 aspect-4/3 overflow-hidden rounded-2xl bg-slate-100 shadow-2xl"
                         >
-                            <!-- <img
-                                :src="lab.image"
-                                class="h-full w-full object-cover grayscale transition-all duration-700 group-hover:scale-110 group-hover:grayscale-0"
-                                :alt="lab.name"
-                            /> -->
-
                             <img
-                                src="@/assets/ai.jpg"
+                                :src="lab.image"
                                 class="h-full w-full object-cover transition-all duration-700 group-hover:scale-110"
+                                :alt="lab.name"
                             />
+
                             <div
                                 class="absolute inset-0 bg-brand-green/10 mix-blend-overlay"
                             ></div>

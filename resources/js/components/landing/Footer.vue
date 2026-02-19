@@ -19,11 +19,11 @@ const quickLinks = [
             >
                 <div class="space-y-6 lg:col-span-4">
                     <a href="/" class="group flex items-center gap-2">
-                        <span
-                            class="text-3xl font-black tracking-tighter text-white transition-colors group-hover:text-brand-green"
-                        >
-                            RBS
-                        </span>
+                        <img
+                            src="@/assets/footer-logo.png"
+                            class="max-w-55"
+                            alt=""
+                        />
                     </a>
                     <div class="max-w-sm space-y-4">
                         <p class="text-lg font-bold text-brand-l-green">
@@ -82,8 +82,8 @@ const quickLinks = [
                                 <Phone class="size-4" />
                             </div>
                             <div class="space-y-1 text-sm text-white/70">
-                                <p>+1 (415) 819-0046 | +1 (407) 920-4720</p>
-                                <p>+65 87165805 | +91 9962495136</p>
+                                <p>9123123123 | 9123123123</p>
+                                <p>9123123123 | 9123123123</p>
                             </div>
                         </div>
 
@@ -97,10 +97,10 @@ const quickLinks = [
                                 class="grid grid-cols-1 gap-1 text-sm text-white/70"
                             >
                                 <a class="hover:text-brand-l-green"
-                                    >chet.white@sevenbosongroup.com</a
+                                    >samplerbsgroup.com</a
                                 >
                                 <a class="break-all hover:text-brand-l-green"
-                                    >ramesh.santhanam@sevenbosongroup.com</a
+                                    >testrbsgroup.com</a
                                 >
                                 <!-- <span class="opacity-50"
                                     >... and leadership team</span
@@ -115,8 +115,8 @@ const quickLinks = [
                                 <MapPin class="size-4" />
                             </div>
                             <p class="text-sm leading-relaxed text-white/70">
-                                1825 S Grant St #200, <br />
-                                San Mateo, CA 94402, United States
+                                1234, Lorem ipsum dolor <br />
+                                sit amet consectetur adipisicing elit
                             </p>
                         </div>
                     </div>

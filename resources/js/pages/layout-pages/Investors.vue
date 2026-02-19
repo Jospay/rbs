@@ -2,40 +2,46 @@
 import { Head } from '@inertiajs/vue3';
 import { Cpu, HeartPulse, Zap, Bot, ShieldCheck } from 'lucide-vue-next';
 
+import agentic from '@/assets/agentic-ai.jpg';
+import energy from '@/assets/energy-compute.jpg';
+import healthcare from '@/assets/healthcare-medtech.jpg';
+import resilient from '@/assets/resilient-infrastructure.jpg';
+import robotics from '@/assets/robotics-physical.jpg';
+
 const domains = [
     {
         name: 'Agentic AI Decision Intelligence',
         desc: 'Control systems and autonomous reasoning layers for sovereign governance.',
         icon: Cpu,
-        image: '/assets/img/ai.jpg',
+        image: agentic,
         delay: 100,
     },
     {
         name: 'Healthcare & MedTech',
         desc: 'Infrastructure enabling privacy-first medical diagnostics and data sovereignty.',
         icon: HeartPulse,
-        image: '/assets/img/ai.jpg',
+        image: healthcare,
         delay: 200,
     },
     {
         name: 'Energy & Compute',
         desc: 'Sustainable power systems and specialized hardware for national AI scaling.',
         icon: Zap,
-        image: '/assets/img/ai.jpg',
+        image: energy,
         delay: 300,
     },
     {
         name: 'Robotics & Physical AI',
         desc: 'The intersection of sovereign software and resilient automated hardware.',
         icon: Bot,
-        image: '/assets/img/ai.jpg',
+        image: robotics,
         delay: 400,
     },
     {
         name: 'Resilient Infrastructure',
         desc: 'Communications and network security for high-availability national operations.',
         icon: ShieldCheck,
-        image: '/assets/img/ai.jpg',
+        image: resilient,
         delay: 500,
     },
 ];
@@ -46,7 +52,6 @@ const domains = [
     <div class="overflow-hidden">
         <section
             class="relative flex min-h-[60vh] items-center overflow-hidden bg-slate-950 bg-cover bg-center pt-40 pb-20"
-            style="background-image: url('/src/assets/hero.jpeg')"
         >
             <div
                 class="bg-;inear-to-r absolute inset-0 z-0 from-slate-950 via-slate-950/80 to-transparent"
@@ -64,7 +69,7 @@ const domains = [
                         <p
                             class="border-l-2 border-brand-green/30 pl-6 text-lg leading-relaxed text-slate-200"
                         >
-                            Seven Boson invests selectively in core
+                            Rekhi Bisheri Salunga invests selectively in core
                             technologies, IP, and infrastructure required for
                             sovereign AI independence, prioritizing durability,
                             security, and long-duration value creation.
@@ -105,21 +110,17 @@ const domains = [
                         ></div>
 
                         <div class="relative aspect-video overflow-hidden">
-                            <!-- <img
+                            <img
                                 :src="domain.image"
                                 :alt="domain.name"
-                                class="h-full w-full object-cover grayscale transition-all duration-1000 group-hover:scale-110 group-hover:grayscale-0"
-                            /> -->
-                            <img
-                                src="@/assets/ai.jpg"
                                 class="h-full w-full object-cover transition-all duration-1000 group-hover:scale-110"
                             />
                             <div
-                                class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-60"
+                                class="absolute inset-0 bg-linear-to-t from-black/60 to-transparent opacity-60"
                             ></div>
                         </div>
 
-                        <div class="flex flex-grow flex-col p-8">
+                        <div class="flex grow flex-col p-8">
                             <div
                                 class="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-slate-900 text-brand-green transition-colors group-hover:bg-brand-green group-hover:text-white"
                             >

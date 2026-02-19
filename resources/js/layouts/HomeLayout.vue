@@ -45,25 +45,25 @@ const navLinks = [
 </script>
 
 <template>
-    <header
+    <!-- <header
         id="header"
         :class="[
-            'fixed top-0 z-50 w-full border-b py-4 transition-all duration-400 ease-in-out',
+            'fixed top-0 z-50 w-full border-b py-4 transition-all duration-400 ease-in-out ',
             isScrolled || isMobileNavOpen || page.url !== '/'
                 ? 'border-gray-100 bg-white text-gray-900 shadow-md'
                 : 'border-transparent bg-transparent',
         ]"
+    > -->
+    <header
+        id="header"
+        class="fixed top-0 z-50 w-full border-b border-gray-100 bg-white py-4 text-gray-900 shadow-md transition-all duration-400 ease-in-out"
     >
         <div class="container mx-auto flex items-center justify-between px-5">
             <Link
                 :href="home()"
                 class="flex shrink-0 items-center gap-2 leading-none"
             >
-                <img
-                    src="@/assets/logo_name.png"
-                    class="h-14 sm:h-16"
-                    alt="Logo"
-                />
+                <img src="@/assets/logo.png" class="h-14 sm:h-16" alt="Logo" />
             </Link>
 
             <nav class="hidden items-center gap-8 lg:flex">

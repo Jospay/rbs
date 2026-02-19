@@ -74,10 +74,9 @@ const sovereigntyPillars = [
     <div class="overflow-hidden">
         <section
             class="relative flex items-center overflow-hidden bg-slate-950 bg-cover bg-center bg-no-repeat pt-40 pb-24"
-            style="background-image: url('/src/assets/hero.jpeg')"
         >
             <div
-                class="absolute inset-0 z-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-transparent"
+                class="absolute inset-0 z-0 bg-linear-to-r from-slate-950 via-slate-950/80 to-transparent"
             ></div>
 
             <div class="relative z-10 container mx-auto px-6">
@@ -97,15 +96,15 @@ const sovereigntyPillars = [
                         <p
                             class="border-l-2 border-brand-green/30 pl-6 text-lg leading-relaxed text-slate-200"
                         >
-                            Seven Boson delivers sovereign AI automated decision
-                            intelligence platforms and optimized clean- energy
-                            infrastructure for nations and enterprises that
-                            demand full ownership, independence, and security.
-                            Our platform integrates automated agentic AI
-                            decision intelligence, orchestration, governance,
-                            cybersecurity, advanced data centers, and dedicated
-                            renewable energy, delivered under complete national
-                            control.
+                            Rekhi Bisheri Salunga delivers sovereign AI
+                            automated decision intelligence platforms and
+                            optimized clean- energy infrastructure for nations
+                            and enterprises that demand full ownership,
+                            independence, and security. Our platform integrates
+                            automated agentic AI decision intelligence,
+                            orchestration, governance, cybersecurity, advanced
+                            data centers, and dedicated renewable energy,
+                            delivered under complete national control.
                         </p>
                     </div>
                 </div>
@@ -166,7 +165,7 @@ const sovereigntyPillars = [
                             class="relative aspect-video overflow-hidden rounded-3xl border-4 border-white bg-slate-200 shadow-2xl"
                         >
                             <img
-                                src="@/assets/ai.jpg"
+                                src="@/assets/platform-overview.jpg"
                                 alt="Platform Intelligence"
                                 class="h-full w-full object-cover opacity-90 mix-blend-multiply"
                             />
@@ -226,16 +225,13 @@ const sovereigntyPillars = [
 
                     <div class="w-full lg:w-1/2" data-aos="fade-right">
                         <div
-                            class="relative h-[500px] overflow-hidden rounded-3xl shadow-2xl"
+                            class="relative h-125 overflow-hidden rounded-3xl shadow-2xl"
                         >
                             <img
-                                src="@/assets/ai.jpg"
+                                src="@/assets/designed-sovereinty.jpg"
                                 alt="Sovereignty Design"
                                 class="h-full w-full object-cover"
                             />
-                            <div
-                                class="absolute inset-0 bg-brand-green/20 mix-blend-color"
-                            ></div>
 
                             <div
                                 class="absolute top-8 left-8 rounded-xl border border-white/20 bg-white/90 p-4 shadow-xl backdrop-blur"

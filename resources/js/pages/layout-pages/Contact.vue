@@ -10,33 +10,26 @@ const departments = [
     {
         title: 'General Inquiries',
         emails: [
-            'info@sevenbosongroup.com',
-            'ramesh.santhanam@sevenbosongroup.com',
-            'niruddh.ramesh@sevenbosongroup.com',
+            'generalinquiries@gmail.com',
+            'sampleusers@gmail.com',
+            'testquiries@gmail.com',
         ],
     },
     {
         title: 'Investors',
-        emails: [
-            'investor@sevenbosongroup.com',
-            'chris.jarrous@sevenbosongroup.com',
-            'chet.white@sevenbosongroup.com',
-        ],
+        emails: ['investor@gmail.com', 'sampleusers@gmail.com'],
     },
     {
         title: 'Media & Speaking',
-        emails: ['media@sevenbosongroup.com'],
+        emails: ['media@gmail.com', 'sampleusers@gmail.com'],
     },
     {
         title: 'Careers',
-        emails: ['careers@sevenbosongroup.com'],
+        emails: ['careers@gmail.com', 'sampleusers@gmail.com'],
     },
     {
         title: 'Commercial Enquiries',
-        emails: [
-            'commercial@sevenbosongroup.com',
-            'dennis.martin@sevenbosongroup.com',
-        ],
+        emails: ['commercial@gmail.com', 'sampleusers@gmail.com'],
     },
 ];
 
