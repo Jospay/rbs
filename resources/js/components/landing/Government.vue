@@ -21,7 +21,7 @@ const leadershipFeatures = [
 </script>
 
 <template>
-    <section class="overflow-hidden py-20">
+    <section class="overflow-hidden bg-white py-20">
         <div class="container mx-auto px-6">
             <div class="flex flex-col-reverse items-center gap-16 lg:flex-row">
                 <div

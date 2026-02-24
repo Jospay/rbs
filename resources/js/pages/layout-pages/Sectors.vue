@@ -66,15 +66,15 @@ const sectors = [
     <Head title="Sectors" />
     <div class="overflow-hidden">
         <section
-            class="relative flex min-h-[60vh] items-center overflow-hidden bg-slate-950 bg-cover bg-center bg-no-repeat pt-40 pb-20"
+            class="relative flex items-center overflow-hidden bg-slate-950 bg-cover bg-center bg-no-repeat pt-40 pb-24"
         >
             <div
-                class="bg-liner-to-r absolute inset-0 z-0 from-slate-950 via-slate-950/80 to-transparent"
+                class="absolute inset-0 z-0 bg-linear-to-r from-slate-950 via-slate-950/80 to-transparent"
             ></div>
 
             <div class="relative z-10 container mx-auto px-6">
                 <div
-                    class="max-w-3xl"
+                    class="max-w-4xl"
                     data-aos="fade-right"
                     data-aos-delay="200"
                 >
@@ -97,6 +97,10 @@ const sectors = [
                     </div>
                 </div>
             </div>
+
+            <div
+                class="absolute right-0 bottom-0 h-48 w-48 bg-brand-green/10 blur-3xl"
+            ></div>
         </section>
 
         <section class="bg-slate-50 py-20">

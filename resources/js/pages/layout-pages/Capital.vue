@@ -50,20 +50,25 @@ const financeOptions = [
     <Head title="Capital" />
     <div class="overflow-hidden bg-white">
         <section
-            class="relative flex min-h-[60vh] items-center overflow-hidden bg-slate-950 bg-cover bg-center pt-40 pb-20"
+            class="relative flex items-center overflow-hidden bg-slate-950 bg-cover bg-center bg-no-repeat pt-40 pb-24"
         >
             <div
-                class="absolute inset-0 z-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-transparent"
+                class="absolute inset-0 z-0 bg-linear-to-r from-slate-950 via-slate-950/80 to-transparent"
             ></div>
 
             <div class="relative z-10 container mx-auto px-6">
-                <div class="max-w-3xl" data-aos="fade-right">
+                <div
+                    class="max-w-4xl"
+                    data-aos="fade-right"
+                    data-aos-delay="200"
+                >
                     <h2
                         class="mb-8 text-5xl leading-[1.1] font-extrabold tracking-tight text-white"
                     >
                         Capital &
                         <span class="text-brand-green">Financial Division</span>
                     </h2>
+
                     <div class="space-y-6">
                         <p
                             class="border-l-2 border-brand-green/30 pl-6 text-lg leading-relaxed text-slate-200"
@@ -76,6 +81,10 @@ const financeOptions = [
                     </div>
                 </div>
             </div>
+
+            <div
+                class="absolute right-0 bottom-0 h-48 w-48 bg-brand-green/10 blur-3xl"
+            ></div>
         </section>
 
         <section class="py-20">

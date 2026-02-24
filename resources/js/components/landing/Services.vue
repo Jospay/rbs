@@ -34,7 +34,7 @@ const services = [
 </script>
 
 <template>
-    <section id="services" class="py-20">
+    <section id="services" class="bg-white py-20">
         <div
             class="container mx-auto mb-20 px-6 text-center"
             data-aos="fade-up"

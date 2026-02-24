@@ -82,8 +82,7 @@ const quickLinks = [
                                 <Phone class="size-4" />
                             </div>
                             <div class="space-y-1 text-sm text-white/70">
-                                <p>9123123123 | 9123123123</p>
-                                <p>9123123123 | 9123123123</p>
+                                <p>+63 45 963 2025</p>
                             </div>
                         </div>
 
@@ -97,10 +96,10 @@ const quickLinks = [
                                 class="grid grid-cols-1 gap-1 text-sm text-white/70"
                             >
                                 <a class="hover:text-brand-l-green"
-                                    >samplerbsgroup.com</a
+                                    >info@bb88advertising.com</a
                                 >
                                 <a class="break-all hover:text-brand-l-green"
-                                    >testrbsgroup.com</a
+                                    >info@bb88group.com</a
                                 >
                                 <!-- <span class="opacity-50"
                                     >... and leadership team</span
@@ -115,8 +114,9 @@ const quickLinks = [
                                 <MapPin class="size-4" />
                             </div>
                             <p class="text-sm leading-relaxed text-white/70">
-                                1234, Lorem ipsum dolor <br />
-                                sit amet consectetur adipisicing elit
+                                Unit D, 2nd Floor Plaza Victoria Bldg., <br />
+                                Sto. Rosario St., Sto. Domingo, Angeles City
+                                2009 Philippines
                             </p>
                         </div>
                     </div>

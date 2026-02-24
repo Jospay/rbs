@@ -1,37 +1,38 @@
 <script setup lang="ts">
 import { Head } from '@inertiajs/vue3';
-import { Mail, Send, Loader2, CheckCircle } from 'lucide-vue-next';
+// import { Mail, Send, Loader2, CheckCircle } from 'lucide-vue-next';
+import { Send, Loader2, CheckCircle } from 'lucide-vue-next';
 import { ref } from 'vue';
 
 const isSubmitting = ref(false);
 const isSent = ref(false);
 
-const departments = [
-    {
-        title: 'General Inquiries',
-        emails: [
-            'generalinquiries@gmail.com',
-            'sampleusers@gmail.com',
-            'testquiries@gmail.com',
-        ],
-    },
-    {
-        title: 'Investors',
-        emails: ['investor@gmail.com', 'sampleusers@gmail.com'],
-    },
-    {
-        title: 'Media & Speaking',
-        emails: ['media@gmail.com', 'sampleusers@gmail.com'],
-    },
-    {
-        title: 'Careers',
-        emails: ['careers@gmail.com', 'sampleusers@gmail.com'],
-    },
-    {
-        title: 'Commercial Enquiries',
-        emails: ['commercial@gmail.com', 'sampleusers@gmail.com'],
-    },
-];
+// const departments = [
+//     {
+//         title: 'General Inquiries',
+//         emails: [
+//             'generalinquiries@gmail.com',
+//             'sampleusers@gmail.com',
+//             'testquiries@gmail.com',
+//         ],
+//     },
+//     {
+//         title: 'Investors',
+//         emails: ['investor@gmail.com', 'sampleusers@gmail.com'],
+//     },
+//     {
+//         title: 'Media & Speaking',
+//         emails: ['media@gmail.com', 'sampleusers@gmail.com'],
+//     },
+//     {
+//         title: 'Careers',
+//         emails: ['careers@gmail.com', 'sampleusers@gmail.com'],
+//     },
+//     {
+//         title: 'Commercial Enquiries',
+//         emails: ['commercial@gmail.com', 'sampleusers@gmail.com'],
+//     },
+// ];
 
 const handleSubmit = () => {
     isSubmitting.value = true;
@@ -68,7 +69,8 @@ const handleSubmit = () => {
 
         <section class="py-24">
             <div class="container mx-auto px-5" data-aos="fade-up">
-                <div class="flex flex-col gap-16 lg:flex-row">
+                <!-- <div class="flex flex-col gap-16 lg:flex-row"> -->
+                <div class="flex justify-center">
                     <div class="lg:w-1/2">
                         <div
                             class="relative overflow-hidden rounded-4xl p-5 shadow-2xl md:p-12"
@@ -173,7 +175,7 @@ const handleSubmit = () => {
                         </div>
                     </div>
 
-                    <div class="space-y-10 lg:w-1/2">
+                    <!-- <div class="space-y-10 lg:w-1/2">
                         <div>
                             <h3
                                 class="mb-2 text-3xl font-black tracking-tight text-slate-900 uppercase"
@@ -220,7 +222,7 @@ const handleSubmit = () => {
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>

@@ -169,9 +169,11 @@ const team = [
 
                         <!-- MODAL -->
                         <DialogContent
-                            class="flex max-h-[90vh] flex-col overflow-hidden p-0 sm:max-w-3xl"
+                            class="flex max-h-[90vh] flex-col overflow-hidden bg-white p-0 sm:max-w-3xl"
                         >
-                            <DialogHeader class="border-b px-6 py-4">
+                            <DialogHeader
+                                class="border-b border-slate-200 px-6 py-4"
+                            >
                                 <DialogTitle
                                     class="text-xl font-bold text-brand-green"
                                 >
@@ -198,7 +200,7 @@ const team = [
 
                             <!-- FOOTER -->
                             <div
-                                class="flex items-center justify-between border-t px-6 py-4"
+                                class="flex items-center justify-between border-t border-slate-200 px-6 py-4"
                             >
                                 <!-- LINKEDIN -->
                                 <a
