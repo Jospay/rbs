@@ -42,7 +42,7 @@ import { Button } from '@/Components/ui/button';
                     <Button
                         variant="outline"
                         size="lg"
-                        class="h-auto w-full border-white/40 bg-white/5 px-8 py-5 text-base font-bold text-white backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-[#00008b] active:scale-95 sm:w-auto"
+                        class="h-auto w-full border-white/40 bg-white/5 px-8 py-5 text-base font-bold text-white backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-brand-l-green active:scale-95 sm:w-auto"
                     >
                         <Mail class="mr-2 size-5" />
                         Contact
