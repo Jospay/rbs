@@ -1,6 +1,12 @@
 <script setup lang="ts">
 import { Head } from '@inertiajs/vue3';
 import { ChevronRight, Linkedin } from 'lucide-vue-next';
+
+import aliImg from '@/assets/Ali-2.jpeg';
+import bobbyImg from '@/assets/bobbyrekhi.jpeg';
+import jayImg from '@/assets/jay.jpeg';
+import RonaldoImg from '@/assets/ronaldo.png';
+
 import {
     Dialog,
     DialogContent,
@@ -10,27 +16,43 @@ import {
     DialogTrigger,
 } from '@/components/ui/dialog';
 
-import aliImg from '@/assets/Ali-2.jpeg';
-import bobbyImg from '@/assets/bobbyrekhi.jpeg';
-import jayImg from '@/assets/jay.jpeg';
-import ReynaldoImg from '@/assets/reynaldo.jpg';
-
 const team = [
     {
-        name: 'Reynaldo Sanchez',
-        title: 'Director',
+        name: 'Ronaldo M. Salunga, CESE',
+        title: 'President CEO',
         detail_title:
-            'Reynaldo C. Sanchez is a Filipino business leader, media...',
+            'Ronaldo M. Salunga, CESE, is a seasoned executive, techno...',
         modalContent: [
-            '<strong>Reynaldo C. Sanchez</strong> is a Filipino business leader, media executive, and corporate officer known for leadership across multiple companies in media, mobility, development, and digital entertainment sectors.',
-            '<ul class="list-disc list-inside"><li><strong>Chairman, E-Pinoy Mobility System Inc.</strong> - EMSi is a Philippine-based mobility company focused on operating and managing electric transport systems supported by modern digital platforms.</li><li><strong>President and CEO of Asian Television Content Corporation</strong> - A Philippine television content company responsible for programming and broadcast content, notably in partnerships with networks like IBC 13.</li><li><strong>Chairman of the Board, Esports World Federation (ESWF)</strong> - He is listed as Chairman of the Board of this international esports and digital sports governance organization.</li></ul>',
-            'Reynaldo C. Sanchez is publicly identifiable as a professional engineer, corporate leader involved in broadcast media and digital entertainment governance, blending roles in traditional television distribution with emerging digital and esports platforms.',
-            '<ul class="list-disc list-inside"><li>Wireless and emerging technologies integration</li><li>Green infrastructure and intelligent systems development</li></ul>',
-            'His leadership reflects a lifelong commitment to nation-building through technology, governance reform, and sustainable enterprise development.',
+            'Ronaldo M. Salunga, CESE, is a seasoned executive, technopreneur, and former senior government official with over three decades of leadership experience spanning public administration, transportation modernization, information technology, agriculture systems, and green mobility innovation.',
+            'He is the Co-Founder and incumbent General Manager of <strong>Device Design Green and Smart Corporation</strong>, where he leads the development of intelligent, sustainable, and technology-driven solutions for infrastructure, mobility, and digital systems.',
+            'Mr. Salunga also co-founded <strong>CMW Philippines</strong> in partnership with a Silicon Valley-based technopreneur. The company successfully secured government accreditation to distribute and sell Class 3 Modern Jeepneys in support of the national Public Utility Vehicle Modernization Program under the <strong>Department of Transportation Philippines</strong>.',
+            '<strong>Public Service Leadership</strong> <br> Before entering private enterprise, Mr. Salunga dedicated nearly 20 years to public service, holding key executive positions in the Philippine government:',
+            '<ul class="list-disc list-inside"><li>Presidential Staff Officer, Presidential Management Staff – Office of the President (1990–2003)</li><li>Assistant Director, <strong>Agricultural Training Institute</strong></li><li>Executive Director, <strong>Land Transportation Franchising and Regulatory Board</strong></li><li>Executive Director, <strong>Information Technology Center for Agriculture and Fisheries</strong></li></ul>',
+            'His appointments during the administration of <strong>Gloria Macapagal-Arroyo</strong> reflect his trusted role in advancing national reforms in transport regulation, digital agriculture, and government systems modernization.',
+            '<strong>Global Technology & Mobility Engagement</strong> <br> Mr. Salunga’s international and private-sector leadership includes:',
+            '<ul class="list-disc list-inside"><li><strong>President, NWire Technology Consortium</strong>, representing U.S.-based wireless technology innovators</li> <li>Board Director, <strong>California Mobility Works</strong> (Santa Clara, California)</li> <li>President & CEO (2018–2024), <strong>Eltrans Innovators Inc.</strong>, an electric vehicle solutions provider</li> <li>Chairman (2018–Present), <strong>Centerstar Insurance Agency and Management Corporation</strong></li></ul>',
+            '<strong>Leadership Vision</strong> <br> Mr. Salunga brings together deep government insight and private-sector innovation to advance:',
+            '<ul class="list-disc list-inside"><li>Smart and sustainable mobility ecosystems</li> <li>Public transport modernization</li> <li>Digital agriculture transformation</li></ul>',
         ],
-        image: ReynaldoImg,
+        image: RonaldoImg,
         delay: 100,
     },
+
+    // {
+    //     name: 'Reynaldo Sanchez',
+    //     title: 'Director',
+    //     detail_title:
+    //         'Reynaldo C. Sanchez is a Filipino business leader, media...',
+    //     modalContent: [
+    //         '<strong>Reynaldo C. Sanchez</strong> is a Filipino business leader, media executive, and corporate officer known for leadership across multiple companies in media, mobility, development, and digital entertainment sectors.',
+    //         '<ul class="list-disc list-inside"><li><strong>Chairman, E-Pinoy Mobility System Inc.</strong> - EMSi is a Philippine-based mobility company focused on operating and managing electric transport systems supported by modern digital platforms.</li><li><strong>President and CEO of Asian Television Content Corporation</strong> - A Philippine television content company responsible for programming and broadcast content, notably in partnerships with networks like IBC 13.</li><li><strong>Chairman of the Board, Esports World Federation (ESWF)</strong> - He is listed as Chairman of the Board of this international esports and digital sports governance organization.</li></ul>',
+    //         'Reynaldo C. Sanchez is publicly identifiable as a professional engineer, corporate leader involved in broadcast media and digital entertainment governance, blending roles in traditional television distribution with emerging digital and esports platforms.',
+    //         '<ul class="list-disc list-inside"><li>Wireless and emerging technologies integration</li><li>Green infrastructure and intelligent systems development</li></ul>',
+    //         'His leadership reflects a lifelong commitment to nation-building through technology, governance reform, and sustainable enterprise development.',
+    //     ],
+    //     image: ReynaldoImg,
+    //     delay: 100,
+    // },
     {
         name: 'Bobby Rekhi',
         title: 'Managing General Partner',
@@ -182,7 +204,7 @@ const team = [
                                 <DialogDescription
                                     class="text-sm font-medium tracking-wider text-gray-400 uppercase"
                                 >
-                                    {{ member.detail_title }}
+                                    {{ member.title }}
                                 </DialogDescription>
                             </DialogHeader>
 
